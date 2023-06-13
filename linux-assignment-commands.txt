@@ -1,0 +1,18 @@
+1. mkdir linux-assignment - To create a new directory called linux-assignment
+2. cd linux-assignment - To navigate into the linux-assignment directory
+3. touch instructions.txt - To create a new file called instructions.txt
+4. nano insructions.txt - To write "Hello, World!" into instructions.txt using a command-line text editor
+5. cat instructions.txt - To display the contents of instructions.txt using a command
+6. mv instructions.txt greetings.txt - To rename instructions.txt to greetings.txt
+7. cp greetings.txt salutations.txt - To copy greetings.txt to a new file called salutations.txt
+8. rm greetings.txt - To delete greetings.txt
+9. mkdir archive - To create a new directory called archive
+10. mv salutations.txt /e/linux-assignment/archive - To move salutations.txt to the archive directory
+11. cd archive
+    pwd 
+    ls - To display the current working directory to confirm that salutations.txt is now in the archive directory
+12. cd ..
+    touch file1.txt file2.txt file3.txt - To navigate back to the linux-assignment directory and create three new empty files named file1.txt, file2.txt, and file3.txt
+13. ls - To display the list of files in the linux-assignment directory to confirm the creation of the new files
+14. cd .. 
+    cat> linux-assignment-commands.txt - - To navigate back to home directory and write down all the commands in the file named linux-assignment-commands.txt
